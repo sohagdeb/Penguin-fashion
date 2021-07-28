@@ -1,0 +1,44 @@
+.header-color{
+    background: #FFF9F4;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.bebas-font{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+.font-size-banner{
+    font-size:70px;
+}
+.padding-banner{
+    padding-bottom: 100px;
+}
+.shoe-img{
+    width: 380px;
+    height: 380px;
+}
+@media only screen and (max-width: 767px){
+    .banner-img{
+        width: 350px;
+        height: 300px;
+        margin-top: 30px;
+    }
+    .text h1{
+        font-size:48px ;
+    }
+    .logo{
+        width: 250px;
+    }
+    .footer-card{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-card-text{
+        margin-right: 10%;
+    }
+    
+}
